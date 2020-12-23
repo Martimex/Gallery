@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="left-open" unicode="&#xe801;" d="M654 682l-297-296 297-297q10-10 10-25t-10-25l-93-93q-11-10-25-10t-25 10l-414 415q-11 10-11 25t11 25l414 414q10 11 25 11t25-11l93-93q10-10 10-25t-10-25z" horiz-adv-x="714.3" />
+
+<glyph glyph-name="right-open" unicode="&#xe802;" d="M618 361l-414-415q-11-10-25-10t-25 10l-93 93q-11 11-11 25t11 25l296 297-296 296q-11 11-11 25t11 25l93 93q10 11 25 11t25-11l414-414q10-11 10-25t-10-25z" horiz-adv-x="714.3" />
+
+<glyph glyph-name="right-dir" unicode="&#xe803;" d="M321 350q0-14-10-25l-250-250q-11-11-25-11t-25 11-11 25v500q0 15 11 25t25 11 25-11l250-250q10-10 10-25z" horiz-adv-x="357.1" />
+
+<glyph glyph-name="left-dir" unicode="&#xe804;" d="M357 600v-500q0-14-10-25t-26-11-25 11l-250 250q-10 11-10 25t10 25l250 250q11 11 25 11t26-11 10-25z" horiz-adv-x="357.1" />
+
+<glyph glyph-name="left-big" unicode="&#xe805;" d="M857 350v-71q0-30-18-51t-47-21h-393l164-164q21-20 21-50t-21-50l-42-43q-21-20-51-20-29 0-50 20l-364 364q-20 21-20 50 0 29 20 51l364 363q21 21 50 21 29 0 51-21l42-41q21-22 21-51t-21-51l-164-164h393q29 0 47-20t18-51z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="right-big" unicode="&#xe806;" d="M821 314q0-30-20-50l-363-364q-22-20-51-20-29 0-50 20l-42 42q-22 21-22 51t22 51l163 163h-393q-29 0-47 21t-18 51v71q0 30 18 51t47 20h393l-163 165q-22 20-22 50t22 50l42 42q21 21 50 21 29 0 51-21l363-363q20-20 20-51z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="left-circled" unicode="&#xf0a8;" d="M714 314v72q0 14-10 25t-25 10h-281l106 106q11 11 11 25t-11 25l-51 51q-10 10-25 10t-25-10l-202-202-51-51q-10-10-10-25t10-25l51-51 202-202q10-10 25-10t25 10l51 51q10 10 10 25t-10 25l-106 106h281q14 0 25 10t10 25z m143 36q0-117-57-215t-156-156-215-58-216 58-155 156-58 215 58 215 155 156 216 58 215-58 156-156 57-215z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="right-circled" unicode="&#xf0a9;" d="M717 350q0 15-10 25l-51 51-202 202q-10 10-25 10t-25-10l-51-51q-10-10-10-25t10-25l106-106h-280q-15 0-25-10t-11-25v-72q0-14 11-25t25-10h280l-106-106q-10-10-10-25t10-25l51-51q10-10 25-10t25 10l202 202 51 51q10 10 10 25z m140 0q0-117-57-215t-156-156-215-58-216 58-155 156-58 215 58 215 155 156 216 58 215-58 156-156 57-215z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="gallery.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+</head>
+
+<body>
+    
+    <h1>Image gallery example</h1>
+  <div class="gallery">
+      <div class="filter-box">
+          <div class="set-buttons" style="float: left;">
+            <button class="set" data-default="Bright 100%">Bright 100%</button>
+            <button class="set" data-default="No blur">No blur  </button>
+            <button class="set" data-default="Contrast 100%">Contrast 100%  </button>
+            <button class="set" data-default="Grayscale 0%">Grayscale 0%  </button>
+            <button class="set" data-default="Hue 0deg">Hue 0deg  </button>
+            <button class="set" data-default="Invert 0%"> Invert 0%</button>
+            <button class="set" data-default="Saturate 100%">Saturate 100% </button>
+            <button class="set" data-default="Sepia 0%">Sepia 0%</button>
+          </div>
+
+          <div class="function-buttons" style="float: right;">
+            <button class="reset"> Wyczyść filtry</button>
+            <button class="submit">Zastosuj filtry</button>
+          </div>
+      </div>
+      <div style="clear: both;"></div>
+     <div class="full-img">
+      <div class="overlay" data-number="1"><i class="icon-left-big"></i></div>   
+      <img class="displayed-img" src="img/bgimg/bg2.jpg" data-which="0">
+      <div class="overlay" data-number="2"><i class="icon-right-big"></i></div>
+     </div>
+    
+    
+    <div id="grid-container">
+     
+      <div class="switch-section"><i class="icon-left-open" data-arrow="1"></i></div>
+
+      <div class="thumb-bar">
+       
+      <img class="thumbnail-img" src="img/nebula0011.jpg" data-which="1">
+      <img class="thumbnail-img" src="img/nebula0012.jpg" data-which="2">
+      <img class="thumbnail-img" src="img/nebula0013.jpg" data-which="3">
+      <img class="thumbnail-img" src="img/nebula0014.jpg" data-which="4">
+      <img class="thumbnail-img" src="img/nebula0015.jpg" data-which="5">
+      <img class="thumbnail-img" src="img/nebula0016.jpg" data-which="6">
+      <img class="thumbnail-img" src="img/nebula0017.jpg" data-which="7">
+      <img class="thumbnail-img" src="img/nebula0018.jpg" data-which="8">
+      <img class="thumbnail-img" src="img/nebula0019.jpg" data-which="9">
+
+      </div>
+
+      <div class="switch-section"><i class="icon-right-open" data-arrow="2"></i></div>
+    </div> <!--Grid-container-->
+  </div>  <!--Gallery-->
+
+  <script src="buttons.js"></script>
+  <script src="gallery.js"></script>
+</body>
+</html>
