@@ -1,6 +1,3 @@
-// IMPORTANT NOTE
-// Program rozwala się, gdy przewiniemy zdjęcie, którego numer sekcji jest równy jego numerowi w wyświetlanej obecnie sekcji
-
 
 let el = document.querySelectorAll(".thumbnail-img");
 
@@ -261,7 +258,6 @@ switchsection.forEach(section => {
 
         thumbnail.src = newImageSource;
 
-        //console.log("Nowy link :"+thumbnail.src);
         })
         let mainimg = document.querySelector(".displayed-img");
         let firstNewImg = document.querySelector(".thumbnail-img");
@@ -274,54 +270,3 @@ switchsection.forEach(section => {
  
   })
 })
-
-
-
-/*
-item.addEventListener('click', ev =>  {
-
-  const overlay = ev.target;
-
-  if(overlay.dataset.number === '1')
-  {
-    let mainimg = document.querySelector(".displayed-img");
-    let src = mainimg.getAttribute("src");
-    //console.log(src);
-
-    let num = src.indexOf('.')-1;
-    let whichnum = src.charAt(num);
-    //console.log("num: "+num);
-   // console.log("whichnum: "+whichnum);
-    //console.log('mainimg.dataset.which:  '+mainimg.dataset.which)
-    let lowerimg = mainimg.dataset.which;
-    lowerimg = parseInt(lowerimg);
-
-   // console.log(" lowerimg value: "+lowerimg)
-
-    if(lowerimg > 1) 
-    {
-      src = src.replace(whichnum, whichnum-1); 
-      mainimg.setAttribute("src", src);
-      mainimg.dataset.which--;
-    }
-
-  }
-
-  else if(overlay.dataset.number === '2')
-  {
-    let mainimg = document.querySelector(".displayed-img");
-    let src = mainimg.getAttribute("src");
-    let num = src.indexOf('.')-1;
-    let whichnum = src.charAt(num);
-    let lowerimg = mainimg.dataset.which;
-    lowerimg = parseInt(lowerimg);
-
-    if(lowerimg < 9) // last image index :(
-    {
-      whichnum = parseInt(whichnum);
-      src = src.replace(whichnum, whichnum+1); 
-      mainimg.setAttribute("src", src);
-      mainimg.dataset.which++;
-    }
-  }
-}) */
